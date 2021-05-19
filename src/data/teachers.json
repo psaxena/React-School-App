@@ -1,0 +1,57 @@
+[{
+	"StaffID": 1,
+	"StaffName": "Professor Dumbledore",
+	"AlternateStaffID": "",
+  "Subject": [1, 2],
+	"Role": "Headmaster",
+	"Present": true
+}, {
+	"StaffID": 2,
+	"StaffName": "Minerva McGonagall",
+	"AlternateStaffID": 1,
+  "Subject": [1, 2],
+	"Role": "Headmistress",
+	"Present": true
+}, {
+	"StaffID": 3,
+	"StaffName": "Rubeus Hagrid",
+	"AlternateStaffID": 2,
+	"Subject": [1],
+	"Role": "Standby Professor",
+	"Present": true
+}, {
+	"StaffID": 4,
+	"StaffName": "Horace Slughorn",
+	"AlternateStaffID": 3,
+	"Subject": [1],
+	"Role": "Professor",
+	"Present": true
+}, {
+	"StaffID": 5,
+	"StaffName": "Severus Snape",
+	"AlternateStaffID": 3,
+	"Subject": [1],
+	"Role": "Professor",
+	"Present": true
+}, {
+	"StaffID": 6,
+	"StaffName": "Alastor Moody",
+	"AlternateStaffID": 2,
+	"Role": "Standby Professor",
+	"Subject": [2],
+	"Present": false
+}, {
+	"StaffID": 7,
+	"StaffName": "Remus Lupin",
+	"AlternateStaffID": 6,
+	"Role": "Professor",
+	"Subject": [2],
+	"Present": false
+}, {
+	"StaffID": 8,
+	"StaffName": "Gilderoy Lockhart",
+	"AlternateStaffID": 6,
+	"Role": "Professor",
+	"Subject": [2],
+	"Present": true
+}]
