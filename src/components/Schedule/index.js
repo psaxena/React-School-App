@@ -9,6 +9,7 @@ class Schedule extends Component {
     this.state = {
       teachers: []
     };
+    this.updateState = this.updateState.bind(this);
   }
 
   componentDidMount() {
@@ -16,7 +17,7 @@ class Schedule extends Component {
     this.setState({ teachers: teachers });
   }
 
-  onChange(sid, value) {
+  updateState(sid, value) {
     
     const staffs = this.state.teachers;
     var staff =  staffs.find(item => {
@@ -32,7 +33,7 @@ class Schedule extends Component {
     return (
       <div className="w3-row-padding">
         <div data-testid="left-pane" className="w3-half">
-          <Staff teachers={this.state.teachers} onChange={this.onChange.bind(this)} />
+          <Staff teachers={this.state.teachers} updateStateProp={this.updateState} />
         </div>
         <div data-testid="right-pane" className="w3-half">
           <Student teachers={this.state.teachers} />

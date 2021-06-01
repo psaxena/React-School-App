@@ -8,7 +8,7 @@ class Staff extends Component{
   }
 
   onFieldChange(e) {
-      this.props.onChange( e.target.name, e.target.checked);
+      this.props.updateStateProp( e.target.name, e.target.checked);
   }
 
   renderHeader = () => {
